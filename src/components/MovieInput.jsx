@@ -10,7 +10,7 @@ const MovieInput = () => {
   const handleAddMovie = () => {
     if(newMovie){
       dispatch(addMovie(newMovie));
-      setNewMovie("");
+      setNewMovie("")
     }
   }
 
