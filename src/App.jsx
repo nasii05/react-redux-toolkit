@@ -1,6 +1,7 @@
 import './App.css'
 import MovieInput from './components/MovieInput'
 import MovieList from './components/movieList'
+import UserListAxios from './components/UserListAxios'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       {" "}
       <MovieInput />
       <MovieList />
+      <UserListAxios/>
     </>
   )
 }
