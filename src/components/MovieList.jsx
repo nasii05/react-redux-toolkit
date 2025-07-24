@@ -3,12 +3,13 @@ import { useSelector, useDispatch } from 'react-redux'
 import { addMovie, removeMovie } from '../movieSlice'
 
 const MovieList = () => {
-  const movies = useSelector((state) => state.computer.movies);
+  const movies = useSelector((state) => state.movies.movies);
   const dispatch = useDispatch() ;
 
   const handleRemoveMovie = (id) => {
     dispatch(removeMovie(id))
   }
+  
   return (
     <div>
       {" "}
